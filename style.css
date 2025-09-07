@@ -1,8 +1,10 @@
-/* * {
+ /* {
     border: 1px solid red;
 }*/
 
 .ColContainer {
+    margin-left: 5%;
+    width:auto;
     display:flex;
     flex-basis: 20px;
     flex-direction:column;
@@ -14,13 +16,14 @@
     flex-basis: 20px;
     flex-direction: row;
     width: 0px;
-    /*background-color: dodgerblue;*/
+    background-color: dodgerblue;
 }
 
 .Box {
     width: 20px;
     flex-basis: 20px;
     flex-shrink:0;
+    border: 1px solid black;
 }
 
 .hoverBox {
@@ -28,4 +31,5 @@
     flex-basis: 20px;
     flex-shrink:0;
     background-color: green;
+    border: 1px solid black;
 }
