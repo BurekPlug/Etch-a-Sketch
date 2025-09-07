@@ -13,10 +13,19 @@
     flex:1;
     flex-basis: 50px;
     flex-direction: row;
-    background-color: dodgerblue;
+    width: 0px;
+    /*background-color: dodgerblue;*/
 }
 
 .Box {
     width: 50px;
     flex-basis: 50px;
+    flex-shrink:0;
+}
+
+.hoverBox {
+    width: 50px;
+    flex-basis: 50px;
+    flex-shrink:0;
+    background-color: green;
 }
